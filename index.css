@@ -77,4 +77,8 @@ h5 {
 /*    justify-content: center;*/
 /*    align-content: center;*/
 /*}*/
+img {
+    max-width: 100%;
+}
+
 
