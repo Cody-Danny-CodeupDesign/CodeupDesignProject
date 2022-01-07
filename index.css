@@ -45,11 +45,15 @@ h5 {
     text-align: center;
 }
 
-#ipad {
+.ipad {
     border: 10px solid #e6e6e6;
     border-radius: 10px;
 }
 
+.test {
+    display: flex;
+    justify-content: space-between;
+}
 
 /*CIRCLES*/
 /*#circle1, #circle2, #circle3, #circle4 {*/
