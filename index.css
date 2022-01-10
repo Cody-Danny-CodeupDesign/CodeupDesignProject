@@ -55,6 +55,35 @@ h5 {
     justify-content: space-between;
 }
 
+#mobile-phone {
+    position: absolute;
+    margin-bottom: 5px;
+}
+
+#face {
+    position: absolute;
+    margin-top: 20px;
+}
+
+#ipad{
+    position: relative;
+    margin-top: 60px;
+
+}
+
+#twitter {
+    position: relative;
+    margin-top: 20px;
+}
+
+.mobilephone > p {
+    position: relative;
+}
+
+button {
+    font-size: 1px;
+}
+
 /*CIRCLES*/
 /*#circle1, #circle2, #circle3, #circle4 {*/
 /*        border: 3px solid white;*/
