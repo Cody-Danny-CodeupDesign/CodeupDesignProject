@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/540684f263.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <title>Codeup Design</title>
 </head>
@@ -25,23 +26,27 @@
     <!--    HEAD-->
     <div class="row" id="top">
         <div>
-            <img id="top-logo" src="assets/logo.png" width="105" height="105">
-        </div>
-        <div class="col-12 order-sm-last">
-            <p class="font-size-48">codeup design</p>
+            <img class="col-md-12 col-lg-12 order-md-first" id="top-logo" src="assets/logo.png" width="105"
+                 height="105">
         </div>
 
+        <div class="col-12 col-md-3 col-lg-3 order-sm-last order-md-2">
+            <p class="font-size-48" id="codeup">codeup design</p>
+        </div>
 
-        <div class="col-3 col-sm-2 p-sm-0 order-sm-first">
+        <div class="col-3 col-sm-2 col-md-1 col-lg-1 ml-md-auto p-sm-0 order-sm-first order-md-3">
             <a href="#">SERVICES</a>
         </div>
-        <div class="col-3 col-sm-2 p-sm-0 order-sm-first">
+
+        <div class="col-3 col-sm-2 col-md-1 col-lg-1 p-sm-0 order-sm-first order-md-4">
             <a href="#">WORK</a>
         </div>
-        <div class="col-3 col-sm-2 p-sm-0 order-sm-4">
+
+        <div class="col-3 col-sm-2 col-md-1 col-lg-1 p-sm-0 order-sm-4">
             <a href="#">BLOG</a>
         </div>
-        <div class="col-3 col-sm-2 pl-sm-2">
+
+        <div class="col-3 col-sm-2 col-md-1 col-lg-1 pl-sm-2 mr-md-2 order-md-last">
             <a href="#">CONTACT</a>
         </div>
 
@@ -63,6 +68,7 @@
         <div class="col-6 col-sm-3" id="circle2" style="background-color: #dea03d">
             <h4>DEVELOP</h4>
         </div>
+
         <div class="col-6 col-sm-3" id="circle3" style="background-color: #7cb06c">
             <h4>SUPPORT</h4>
         </div>
@@ -78,28 +84,28 @@
     <!--    FOOTER -->
 
     <div class="row">
-        <div class="col-12" style="text-align: center">
+        <div class="col-12 col-md-3" style="text-align: center">
             <p style="margin-bottom: 20px;">SELECTED WORK</p>
+        </div>
+        <div class="col-md-4 ml-md-auto d-none d-md-block">
+            <p>THE LAST</p>
         </div>
     </div>
 
     <!-- Image that aligns top left -->
 
     <div class="row">
-        <div class="col">
-            <div d-flex>
-                <img src="assets/images/apple-ipad.jpg" height="324px"
-                     style="border: 5px solid #E6E6E6; margin-bottom: 10px;">
-                <div class="ml-auto">FEATURED PROJECT<span style="margin-left: 110px;">
-                            <button type="button" class="btn btn-danger disabled"
-                                    style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                            <button type="button" class="btn btn-warning disabled"
-                                    style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                            <button type="button" class="btn btn-success disabled"
-                                    style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                            <button type="button" class="btn btn-primary disabled"
-                                    style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color:  black;">D</button>
-                        </span>
+        <div class="col col-md-4">
+            <div>
+                <img src="assets/images/apple-ipad.jpg"
+                     style="border: 5px solid #E6E6E6; margin-bottom: 10px;" class="bottom-images">
+                <div class="ml-auto">FEATURED PROJECT
+                    <div class="d-flex">
+                        <p class="bottom-circles" style="background-color: #e6563b">D</p>
+                        <p class="bottom-circles" style="background-color: #dea03d">D</p>
+                        <p class="bottom-circles" style="background-color: #7cb06c">S</p>
+                        <p class="bottom-circles" style="background-color: #00aba9">H</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,20 +113,17 @@
         <!-- Image that align top right -->
 
         <div class="row">
-            <div class="col">
+            <div class="col col-md-4">
                 <div>
-                    <img src="assets/images/macbook.jpg" height="323px"
-                         style="border: 5px solid #E6E6E6; margin-bottom: 10px;">
-                    <div class="ml-auto">FEATURED PROJECT<span style="margin-left: 110px;">
-                                <button type="button" class="btn btn-danger disabled"
-                                        style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                                <button type="button" class="btn btn-warning disabled"
-                                        style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                                <button type="button" class="btn btn-success disabled"
-                                        style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                                <button type="button" class="btn btn-primary disabled"
-                                        style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color:  black;">D</button>
-                            </span>
+                    <img src="assets/images/macbook.jpg"
+                         style="border: 5px solid #E6E6E6; margin-bottom: 10px;" class="bottom-images">
+                    <div class="ml-auto">FEATURED PROJECT
+                        <div class="d-flex">
+                            <p class="bottom-circles" style="background-color: #e6563b">D</p>
+                            <p class="bottom-circles" style="background-color: #dea03d">D</p>
+                            <p class="bottom-circles" style="background-color: #7cb06c">S</p>
+                            <p class="bottom-circles" style="background-color: #00aba9">H</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -130,29 +133,26 @@
 
     <!--Image that aligns bottom left-->
     <div class="row">
-        <div class="col">
+        <div class="col col-md-4">
             <div>
-                <img src="assets/images/man.jpg" height="325px" width="480px"
-                     style="border: 5px solid #E6E6E6; margin-top: 20px;">
-                <div class="ml-auto">FEATURED PROJECT<span style="margin-left: 110px;">
-                            <button type="button" class="btn btn-danger disabled"
-                                    style="border-radius: 50%;font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                            <button type="button" class="btn btn-warning disabled"
-                                    style="border-radius: 50%;font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                            <button type="button" class="btn btn-success disabled"
-                                    style="border-radius: 50%;font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
-                            <button type="button" class="btn btn-primary disabled"
-                                    style="border-radius: 50%;font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color:  black;">D</button>
-                        </span>
+                <img src="assets/images/man.jpg"
+                     style="border: 5px solid #E6E6E6; margin-top: 20px;" class="bottom-images">
+                <div class="ml-auto">FEATURED PROJECT
+                    <div class="d-flex">
+                        <p class="bottom-circles" style="background-color: #e6563b">D</p>
+                        <p class="bottom-circles" style="background-color: #dea03d">D</p>
+                        <p class="bottom-circles" style="background-color: #7cb06c">S</p>
+                        <p class="bottom-circles" style="background-color: #00aba9">H</p>
+                    </div>
                 </div>
             </div>
         </div>
         <!--Image that align bottom right-->
         <div class="row">
-            <div class="col">
+            <div class="col col-md-4">
                 <div>
-                    <img src="assets/images/security.jpg" height="335px"
-                         style="border: 5px solid #E6E6E6; margin-top: 18px;">
+                    <img src="assets/images/security.jpg"
+                         style="border: 5px solid #E6E6E6; margin-top: 18px;" class="bottom-images">
                     <div class="ml-auto">FEATURED PROJECT<span style="margin-left: 125px;">
                                 <button type="button" class="btn btn-danger disabled"
                                         style="border-radius: 50%; font-family: 'Anton', sans-serif; font-size: 15px; height: 50px; width: 50px; border: 2px solid white; text-align: center; color: black;">D</button>
@@ -173,15 +173,17 @@
                 <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
             </div>
             <div>
-                <img src="assets/images/head.jpg" height="80px"  width="80px" id="face">
+                <img src="assets/images/head.jpg" height="80px" width="80px" id="face">
                 <h5>NIBBLER AWESOME WEBSITE TESTING</h5>
             </div>
             <div><img src="assets/images/ipad.jpg" height="80px" width="80px" id="ipad">
                 <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
             </div>
             <div>
-                <div><img src="assets/images/twitterlogo-1.png" height="20px" width="20px" id="twitter">
-                    <p>LAST TWEET</p></div>
+                <div>
+                    <i class="fab fa-twitter" id="twitter"></i>
+                    <p>LAST TWEET</p>
+                </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto
                     beatae dolorum et id modi molestiae natus ratione vero, voluptatem.</p>
             </div>
