@@ -166,7 +166,6 @@ button {
 
 
 
-
 @media screen and (max-width:575px){
     #circle1, #circle2, #circle3, #circle4 {
         border: 15px solid white;
@@ -255,9 +254,14 @@ button {
         width: 100%;
     }
 
-    button {
-        width: 10px;
-        height: 10px;
+    .btn {
+        font-family: Anton, sans-serif;
+        font-size: 9px;
+        border-radius: 50%;
+        height: 25px;
+        width: 15px;
+        color: black;
+
     }
 }
 
